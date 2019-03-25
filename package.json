@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeSeed",
+  "name": "soldiersfirstapp",
   "version": "1.2.0",
   "private": true,
   "devDependencies": {
@@ -14,7 +14,6 @@
     "babel-jest": "^23.6.0",
     "babel-preset-expo": "^5.0.0",
     "babel-preset-react-native": "4.0.1",
-    "eslint": "5.11.0",
     "husky": "1.2.1",
     "jest-expo": "31.0.0",
     "react-test-renderer": "16.5.0",
@@ -30,8 +29,7 @@
     "ios": "expo ios",
     "android": "expo android",
     "lint": "tslint src/**/*.ts",
-    "test": "yarn jest && tslint src/**/*.tsx && eslint .",
-    "precommit": "yarn test"
+    "test": "yarn jest && tslint src/**/*.tsx && eslint ."
   },
   "jest": {
     "preset": "jest-expo",
@@ -50,7 +48,10 @@
     ]
   },
   "dependencies": {
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4",
     "expo": "^31.0.4",
+    "jest": "^24.5.0",
     "lodash": "4.17.11",
     "native-base": "2.8.2",
     "react": "16.5.0",
@@ -63,5 +64,10 @@
     "redux-thunk": "2.3.0",
     "remote-redux-devtools": "0.5.14",
     "remote-redux-devtools-on-debugger": "^0.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
   }
 }
