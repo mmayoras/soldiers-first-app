@@ -120,7 +120,7 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          Blank Page
+          Profile Page
         </Text>
       </View>
       <View
@@ -195,7 +195,7 @@ exports[`renders correctly 1`] = `
         }
         uppercase={false}
       >
-        Create Something Awesome . . .
+        User info goes here...
       </Text>
     </View>
   </RCTScrollView>

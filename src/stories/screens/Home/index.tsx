@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 import {
   Container,
   Header,
@@ -12,9 +12,9 @@ import {
   Right,
   List,
   ListItem
-} from "native-base";
+} from 'native-base';
 
-import styles from "./styles";
+import styles from './styles';
 export interface Props {
   navigation: any;
   list: any;
@@ -45,7 +45,7 @@ class Home extends React.Component<Props, State> {
               <ListItem
                 key={i}
                 onPress={() =>
-                  this.props.navigation.navigate("BlankPage", {
+                  this.props.navigation.navigate('ProfilePage', {
                     name: { item }
                   })
                 }

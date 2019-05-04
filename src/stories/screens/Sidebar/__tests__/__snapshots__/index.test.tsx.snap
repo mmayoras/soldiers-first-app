@@ -69,8 +69,8 @@ exports[`renders correctly 1`] = `
               "route": "Home",
             },
             Object {
-              "caption": "Blank Page",
-              "route": "BlankPage",
+              "caption": "Profile Page",
+              "route": "ProfilePage",
             },
             Object {
               "caption": "Logout",
@@ -186,7 +186,7 @@ exports[`renders correctly 1`] = `
                 }
                 uppercase={false}
               >
-                Blank Page
+                Profile Page
               </Text>
             </View>
           </View>
