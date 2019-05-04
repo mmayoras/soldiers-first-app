@@ -1,5 +1,5 @@
-import * as React from "react";
-import Sidebar from "../../stories/screens/Sidebar";
+import * as React from 'react';
+import Sidebar from '../../stories/screens/Sidebar';
 export interface Props {
 	navigation: any;
 }
